@@ -1,4 +1,4 @@
-package patapix.src.main.java.br.com.patapix.model;
+package br.com.patapix.model;
 
 public class Doador {
 }
