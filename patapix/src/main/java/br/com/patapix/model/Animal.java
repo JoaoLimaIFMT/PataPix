@@ -22,7 +22,7 @@ public class Animal {
     private String Genero;
     private String Porte;
     private String Cor;
-    // -->  ID Tutor e Doador
+    // --> Precisa de  ID Tutor e ID Doador como Classes
 
     //Getters e Setters
 

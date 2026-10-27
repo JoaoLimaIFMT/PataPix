@@ -3,10 +3,13 @@ import jakarta.persistence.*;
 import java.util.Date;
 
 @Entity
+@Table(name = "Usuario")
+@Inheritance(strategy = InheritanceType.JOINED)
 public class Usuario {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "ID_Usuario")
 
     //Declaração de Variaveis
 
